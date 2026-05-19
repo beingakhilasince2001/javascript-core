@@ -1,0 +1,101 @@
+# 🍺 Homebrew 
+
+## What is Homebrew?
+
+Homebrew is a **package manager** for macOS/Linux.
+
+It helps developers:
+
+* install software
+* update software
+* manage dependencies
+
+using terminal commands.
+
+---
+
+# 📌 Purpose
+
+Instead of manually downloading tools from websites:
+
+```bash
+brew install node
+```
+
+Homebrew automatically:
+
+* downloads
+* installs
+* configures software
+
+---
+
+# 🧠 Real-Life Analogy
+
+```txt
+Homebrew = App Store for terminal/developer tools
+```
+
+---
+
+# Common Tools Installed Using Homebrew
+
+* Node.js
+* Git
+* Python
+* Docker
+* MongoDB
+
+---
+
+# Important Commands
+
+## Check Homebrew
+
+```bash
+brew -v
+```
+
+---
+
+## Install package
+
+```bash
+brew install node
+```
+
+---
+
+## Update package
+
+```bash
+brew upgrade node
+```
+
+---
+
+## Remove package
+
+```bash
+brew uninstall node
+```
+
+---
+
+# Important Distinction
+
+| Tool     | Purpose                        |
+| -------- | ------------------------------ |
+| Homebrew | installs software              |
+| Node.js  | runs JavaScript                |
+| npm      | installs JS libraries/packages |
+
+---
+
+# Key Understanding
+
+```txt
+Homebrew installs developer tools.
+Node.js runs JavaScript outside browser.
+npm installs JavaScript packages.
+```
