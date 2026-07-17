@@ -14,7 +14,7 @@ function result() {
 }
 
 function clearDisplay() {
-    expression = "";
+    expression = " ";
     input.value = "";
     resultElement.textContent = "0";
 }
